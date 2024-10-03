@@ -92,7 +92,7 @@ function ConvertitoreAlimenti() {
         {risultato && (
           <div className="result">
             <p>{quantità}g di {alimentoX} corrispondono a {risultato.conversioneQuantità}g di {alimentoY}</p>
-            <p>Calorie: {risultato.calorieTotali}g</p>
+            <p>Calorie (circa): {risultato.calorieTotali} kcal</p>
           </div>
         )}
       </div>

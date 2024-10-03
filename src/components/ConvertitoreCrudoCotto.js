@@ -13,10 +13,13 @@ const ConvertitoreCrudoCotto = () => {
     const [rawWeight, setRawWeight] = useState('');
     const [cookedWeight, setCookedWeight] = useState(null);
     const [food, setFood] = useState('riso_rosso');
+    const [kcal, setKcal] = useState(null);
 
     const handleConvert = () => {
         const conversionFactor = alimenti[food].rapporto;
         const result = rawWeight * conversionFactor;
+        const kcal = rawWeight * 4;
+        setKcal(kcal);
         setCookedWeight(result);
     };
 
@@ -49,6 +52,7 @@ const ConvertitoreCrudoCotto = () => {
                 {cookedWeight !== null && (
                 <div className='result'>
                     <p>Peso cotto: {cookedWeight.toFixed(2)} grammi</p>
+                    <p>Calorie (circa): {kcal} kcal</p>
                 </div>
                 )}
         </div>
