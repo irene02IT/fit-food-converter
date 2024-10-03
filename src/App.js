@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import ConvertitoreAlimenti from './components/ConvertitoreAlimenti';
+import ConvertitoreCrudoCotto from './components/ConvertitoreCrudoCotto';
 import './App.css';
 
 function App() {
+  const [showCrudoCotto, setShowCrudoCotto] = useState(true);
+  const [showConvertitoreAlimenti, setShowConvertitoreAlimenti] = useState(false);
+
+  const handleButtonClick = () => {
+    //toggle one component at a time
+    setShowCrudoCotto(!showCrudoCotto);
+    setShowConvertitoreAlimenti(!showConvertitoreAlimenti);
+  };
+  const logo = 'logo192.png';
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='header'>
+        <img src={logo} className='logo' alt='logo' />
+        <h1>FitFoodConverter</h1>
+        
+        <button className='toggle-converter' onClick={handleButtonClick}>
+          {showCrudoCotto ? 'Alimenti' : 'Da crudo a cotto'}
+        </button>
+      
+        {showCrudoCotto && <ConvertitoreCrudoCotto />}
+        {showConvertitoreAlimenti && <ConvertitoreAlimenti />}
+      </div>
+      <footer>
+          <p>IE © 2024</p>
+        </footer>
     </div>
   );
 }
