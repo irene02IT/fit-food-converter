@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <div className='header'>
         <img src={logo} className='logo' alt='logo' />
-        <h1>FitFoodConverter</h1>
+        <h1>Fit food converter</h1>
         
         <button className='toggle-converter' onClick={handleButtonClick}>
           {showCrudoCotto ? 'Alimenti' : 'Da crudo a cotto'}
