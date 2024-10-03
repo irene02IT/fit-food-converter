@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fit-food-converter/static/css/main.fb46606b.css",
-    "main.js": "/fit-food-converter/static/js/main.2cab3c83.js",
+    "main.js": "/fit-food-converter/static/js/main.1f5b6b3c.js",
     "static/js/453.ea4318b5.chunk.js": "/fit-food-converter/static/js/453.ea4318b5.chunk.js",
     "index.html": "/fit-food-converter/index.html",
     "main.fb46606b.css.map": "/fit-food-converter/static/css/main.fb46606b.css.map",
-    "main.2cab3c83.js.map": "/fit-food-converter/static/js/main.2cab3c83.js.map",
+    "main.1f5b6b3c.js.map": "/fit-food-converter/static/js/main.1f5b6b3c.js.map",
     "453.ea4318b5.chunk.js.map": "/fit-food-converter/static/js/453.ea4318b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb46606b.css",
-    "static/js/main.2cab3c83.js"
+    "static/js/main.1f5b6b3c.js"
   ]
 }
