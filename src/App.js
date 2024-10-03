@@ -27,7 +27,7 @@ function App() {
         {showConvertitoreAlimenti && <ConvertitoreAlimenti />}
       </div>
       <footer>
-          <p>IE © 2024</p>
+          <p><a href='https://github.com/irene02IT/fit-food-converter'>IE © 2024</a></p>
         </footer>
     </div>
   );

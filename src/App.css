@@ -30,7 +30,7 @@ h1 {
   max-width: 500px;
   width: 100%;
 }
-/* per schermi piccoli riduci max width  */
+
 @media (max-width: 500px) {
   .container {
     max-width: 300px;
@@ -108,4 +108,9 @@ footer {
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
 }
