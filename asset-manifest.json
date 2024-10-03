@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fit-food-converter/static/css/main.080d5784.css",
+    "main.js": "/fit-food-converter/static/js/main.d7601ce6.js",
+    "static/js/453.ea4318b5.chunk.js": "/fit-food-converter/static/js/453.ea4318b5.chunk.js",
+    "index.html": "/fit-food-converter/index.html",
+    "main.080d5784.css.map": "/fit-food-converter/static/css/main.080d5784.css.map",
+    "main.d7601ce6.js.map": "/fit-food-converter/static/js/main.d7601ce6.js.map",
+    "453.ea4318b5.chunk.js.map": "/fit-food-converter/static/js/453.ea4318b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.080d5784.css",
+    "static/js/main.d7601ce6.js"
+  ]
+}
